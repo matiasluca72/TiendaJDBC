@@ -71,7 +71,7 @@ public class Producto {
         try {
             return "Código: " + codigo + " / Nombre: " + nombre + " / $" + precio + " / Fabricante: " + fabricanteService.devolverFabricante(getCodigoFabricante());
         } catch (Exception ex) {
-            ex.printStackTrace();
+            //ex.printStackTrace();
             System.out.println(ex.getMessage());
             return "Hubieron problemas, amigos :(";
         }
