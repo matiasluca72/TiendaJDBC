@@ -91,8 +91,8 @@ public final class ProductoService {
 
         } catch (Exception e) {
             //e.printStackTrace();
-            System.out.println("Error al querer mostrar los productos entre $120 y $202 uwu"
-                    + "\nAcá usamos el método devolverFabricante y puede que la haya cagado c:");
+            System.out.println("Error al querer mostrar los productos entre $120 y $202"
+                    + "\nAcá usamos el método devolverFabricante y puede que la haya cagado");
             System.out.println(e.getMessage());
         }
     }
@@ -132,7 +132,7 @@ public final class ProductoService {
 
         } catch (Exception e) {
             //e.printStackTrace();
-            System.out.println("Error al querer mostrar el producto más tobara xD");
+            System.out.println("Error al querer mostrar el producto más barato");
             System.out.println(e.getMessage());
         }
     }

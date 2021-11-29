@@ -51,7 +51,7 @@ public final class FabricanteService {
 
         } catch (Exception e) {
             //e.printStackTrace();
-            System.out.println("Ups! Error buscando a los fabricantes xd"
+            System.out.println("Ups! Error buscando a los fabricantes"
                     + "\n" + e.getMessage());
         }
 

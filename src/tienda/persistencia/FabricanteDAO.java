@@ -53,7 +53,7 @@ public final class FabricanteDAO extends DAO {
             //Ejecuto el método de consulta que devuelve y guarda una tabla en el Objeto ResultSet
             consultarBase(sql);
 
-            /* Aunque sea un solo String, es necesario seguir ocupado el while con el método next()
+            /* Aunque sea un solo String, es necesario seguir ocupando el while con el método next()
             para obtener el valor y que no arroje errores. */
             String fabricante = null;
             while (resultado.next()) {

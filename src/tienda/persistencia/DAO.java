@@ -55,7 +55,7 @@ public abstract class DAO {
             if (resultado != null) {
                 resultado.close();
             }
-        } catch (Exception e) {
+        } catch (SQLException e) {
             throw e;
         }
     }
