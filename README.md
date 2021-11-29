@@ -9,7 +9,7 @@ JDBC para realizar la ejecución de operaciones sobre la base de datos (BD).</i>
 <br>
 <h3>Algunas características del proyecto realizado:</h3>
 <ul>
-  <li>Manipulación de las Clases <strong>Connection, Statement y ResultSet</strong> de la libreria MySQL Connector Java 8.0.26</li>
+  <li>Manipulación de las Clases <strong>Connection, Statement y ResultSet</strong> que forman parte de la API de JDBC java.sql</li>
   <li>Desarrollo del patrón de diseño DAO (Data Access Object)</li>
   <li>Desarrollo desde 0 de los principales métodos de la Clase abstracta DAO (conenctarse a la base, desconectarse, aplicar updates y realizar consultas)</li>
   <li>Desarrollo de operaciones CRUD en dos entidades (producto y fabricante)</li>
